@@ -28,3 +28,13 @@ var HelloUser = React.createClass({
 			)
 	}
 })
+
+var Hellow User = React.createClass({
+	render: function(){
+		return (
+				<div> Hello, {this.props.name}</div>
+			)
+	}
+});
+
+React.render(<HelloUser name="Tyler"/>, document.getElementById)
